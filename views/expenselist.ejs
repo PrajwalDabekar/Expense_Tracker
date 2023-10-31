@@ -1,0 +1,7 @@
+<%- include("header") -%>
+<% for(var item of expenseList){ %>
+<div class="exp_form1 expense">
+    <h4><%= item.expense %></h4>
+    <p><%= item.description %></p>
+</div>
+<% } %>

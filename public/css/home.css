@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+    
+}
+nav{
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.934);
+    position: sticky;
+    
+}
+nav ul{
+    display: flex;
+    position: sticky;
+}
+nav ul li{
+    margin: 10px;
+}
+.menu-button{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.menu-button:hover{
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.934);
+}
+
+.exp_form{
+    border: 2px solid  rgba(0, 0, 0, 0.934);
+    border-radius: 34px;
+    width: 42%;
+    margin: 109px 374px;
+    padding: 50px;
+    padding-top: 8px;
+    background-color: rgb(240, 247, 255);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+}
+
+.exp_form1{
+    border: 2px solid  rgba(0, 0, 0, 0.934);
+    border-radius: 34px;
+    width: 42%;
+    margin: 5px 374px;
+    padding: 50px;
+    padding-top: 8px;
+    background-color: rgb(240, 247, 255);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.form_grp div{
+    padding: 10px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.form_grp input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width: 316px;
+    text-align: center;
+    padding: 1px;
+    margin: 0px 42px;
+    border: 2px solid  rgba(0, 0, 0, 0.934);
+    border-radius: 7px;
+    background: transparent;
+    color: black;
+}
+
+.exp_form h3,h1{
+    font-family: 'Ubuntu', sans-serif;
+    color:  rgba(0, 0, 0, 0.934);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.a_btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    margin: 2px 130px;
+    width: 33%;
+    padding: 1px 0px;
+    background: transparent;
+    color: rgb(35, 34, 34);
+    cursor: pointer;
+    border: 2px solid  rgba(0, 0, 0, 0.934);
+    border-radius: 7px;
+    margin: 20px 130px 0px 130px;
+}
+.a_btn:hover{
+    background:  rgba(0, 0, 0, 0.934);
+    color:whitesmoke;
+    border: 2px solid  rgba(0, 0, 0, 0.934);
+}
+.circle{
+    border-radius: 50%;
+    margin: -16px 220px -16px 86px;
+}
+.logout{
+    margin-left: 260px;
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.934);
+}
+.logout:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
+.balance{
+    padding: 30px;
+}
+.expense{
+    height: 110px;
+}
